@@ -1,0 +1,121 @@
+.BookTicket-Container{
+    width:1550px;
+    height: auto;
+    
+   display: flex;
+   flex-direction: column;
+}
+.BookTicket-Header-Section{
+    height: 129px;
+    background-color: #333545;
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    color: white;
+    
+
+}
+.Movie-Title{
+    display: flex;
+    height: 60px;
+  margin-top: 20px;
+   font-size: 40px;
+   margin-left: 100px;
+}
+.BookTicket-SubHeader-Section{
+    height: 64px;
+    background-color:grey;
+    display: flex;
+    flex-direction: row;
+    color:black;
+    justify-content: space-evenly;
+    
+}
+
+.SlickTrack{
+ width :"285px";
+
+
+ 
+}
+.slick-slide ,button :hover{
+    color: black;
+}
+.Slider .slick-prev,
+.slick-next {
+  color: black;
+}
+.Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+}
+.BookTicket-Content-Section{
+    background-color: rgb(227, 224, 224);
+    height:auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.Content-Section{
+    width:1240px;
+    background-color:whitesmoke;
+    height: auto;
+
+}
+.Content-Header{
+    display: flex;
+     margin-left: 800px;
+    width: 1230px;
+}
+.hall-list{
+    display: flex;
+    flex-direction: column;
+}
+.hall-item{
+    display: flex;
+    padding: 30px;
+    
+}
+.centered-div-overlay {
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  }
+  
+  .centered-div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+   width: 500px;
+   height: 430px;
+    overflow: auto;
+    display: flex;
+  
+    align-items: center;
+    flex-direction: column;
+
+    
+  }
+  .Seat-Selection-Header{
+ display: flex;
+  }
+  .Buttons-Seat{
+    height:30px;
+    width:30px;
+    border-radius: 50px;
+  }
+  .Buttons-Seat:hover{
+    background-color: #f84464;
+
+  }

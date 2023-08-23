@@ -1,0 +1,50 @@
+.SideBar-Container{
+    width:350px;
+    background-color:rgb(245, 243, 243);
+    position: absolute;
+    right: 1%;
+    top: 0%;
+    cursor: pointer;
+    z-index: 100;
+    transition: right 0.5s ease-in-out;
+    height: 100%;  
+ }
+ .sidebarHeader{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 26, 52);
+    color: aliceblue;
+
+ }
+ .Container p{
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    font-family:sans-serif
+ }
+ .subContainer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    height:60px;
+    padding:20px;
+    border-bottom: 1px solid rgb(226, 223, 223);
+ }
+ .LogoutContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:60px;
+    padding:20px;
+    border-bottom: 1px solid rgb(252, 249, 249);
+ }
+ .LogoutContainer button{
+    width: 250px;
+    height: 40px;
+    background-color:transparent;
+    border-radius: 5px;
+    border:1px solid red;
+ }

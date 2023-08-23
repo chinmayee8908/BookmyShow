@@ -1,0 +1,55 @@
+.Carousel-Container{
+    height:307px ;
+    width: 1536px;
+    margin-top: 10px;
+   position: relative;
+   z-index: 0;
+}
+.carimg{
+width: 1536px;
+position: relative;  
+}
+
+
+/* show movie */
+
+.ShowMovie-Container{height:307px ;
+width: 1536px;
+position: absolute;
+margin-top: 70px;
+}
+
+.movies-Container
+{
+display: flex;
+flex-direction: column;
+width: 100vw;
+background-color:whitesmoke
+
+}
+.movieContainer-Header{
+display: flex;
+flex-direction: column; 
+padding: 60px;
+}
+.moviesListed{
+display: flex;
+height: auto;
+justify-content: space-evenly;
+
+
+}
+.movie-Container{
+height: 400px;
+display: flex;
+flex-direction: column; 
+width: 225px;
+
+}
+
+.movie-Image{
+height:350px ;
+width: 245px;
+border-radius: 10px;
+
+}

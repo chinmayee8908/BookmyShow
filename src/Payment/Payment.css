@@ -1,0 +1,11 @@
+.Payment-Conatiner-1{
+    margin-left: 120px;
+}
+
+.Payment-Conatiner-2{
+ width:370px;
+ display: flex;
+ flex-direction: column;
+ background-color: rgb(247, 245, 239);
+ height: 500px;
+}

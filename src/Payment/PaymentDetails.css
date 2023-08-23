@@ -1,0 +1,26 @@
+.paymentDetails-Container-1{
+height:auto;
+width:800px;
+
+
+}
+.paymentDetails-Header{
+background-color: #e64e6a;
+height: 60px;
+width:800px;
+}
+.payment-Option-Container{
+    display: flex;
+    flex-direction: row;
+
+}
+.payment-Option{
+    display: flex;
+    height: 200px;
+    width: 256px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-2{
+    margin-left: 80px;
+}

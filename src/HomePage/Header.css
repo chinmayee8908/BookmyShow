@@ -1,0 +1,66 @@
+.logo{
+    height: 50px;
+    width: 135px;
+    
+}
+.user{
+    height: 27px;
+     width: 30px;
+    border-radius: 70px;
+   margin-right: 10px;
+   margin-top: 4px;
+   
+    
+}
+.NavBar-Container{
+    height: 100px;
+
+}
+.Header-Container{
+    background-color: rgb(50, 58, 68);
+    height: 64px;
+    width: 100vw;
+}
+.mr-sm-2{
+ width: 550px;
+ height: 35px;
+}
+.location{
+    color: white;
+    
+}
+.menu{
+   color: white; 
+}
+.signinBar{
+    display: flex;
+     justify-content: space-between; 
+    width: 250px;
+    margin-left: 300px;
+}
+.subHeader{
+    width: 1536px;
+    height: 40px;
+    /* background-color: rgb(4, 4, 60); */
+    background-color: rgb(31, 37, 51);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+.buttons1{
+    display: flex;
+    width: 420px;
+    color: white;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.buttons2{
+    display: flex;
+    color: white;
+    width: 350px;
+    justify-content: space-between;
+    margin-left: 100;
+    font-size: 14px;
+}

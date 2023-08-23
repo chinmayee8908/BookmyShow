@@ -1,0 +1,67 @@
+.Header-3{
+    display: flex;
+    justify-content: center;
+    width: 1546px;
+    height: 40px;
+    background-color: rgb(59, 66, 97);
+    color: aliceblue;
+    }
+    .form-Container{
+    width:1546px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10px;
+    height: 2000px;
+    
+    }
+    .form-Header{
+        height: 96px;
+        width: 708px;
+        
+        background:linear-gradient(98.18deg, rgb(43, 49, 72) 2.87%, rgb(136, 63, 85) 59.96%, rgb(235, 78, 98) );
+    }
+    .addUserIcon{
+        height: 95px;
+        width: 95px;
+        background-color: aliceblue;
+        border-radius: 50%;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        border: 1px solid grey;
+    }
+    .AccountDetails{
+        height: 200px;
+        background-color:whitesmoke;
+    }
+    .AccountDetails-Container{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+               justify-content: center;
+    }
+    .personalDetails{
+        height: 500px;
+        background-color:whitesmoke; 
+        margin-top: 20px;
+        position: absolute; 
+        width: 708px; 
+       
+    }
+    .personalDetails-Container{
+        padding: 40px;
+        display: flex;
+        height: 450px;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .inputBox{
+    height: 30px;
+    width: 422px;
+    border-radius: 6px;
+    }
+    
+    

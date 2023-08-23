@@ -1,0 +1,51 @@
+.movies-Container
+{
+display: flex;
+flex-direction: column;
+width: 100vw;
+background-color:whitesmoke
+
+}
+.movieContainer-Header{
+   display: flex;
+   flex-direction: column; 
+   padding: 60px;
+}
+.moviesListed{
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+   
+    
+}
+.movie-Container{
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    width: 225px;
+  
+}
+
+.movie-Image{
+    height:350px ;
+    width: 245px;
+    border-radius: 10px;
+
+}
+.AllMovies-Container{
+    display: flex;
+    width: 100vw;
+    height: auto;
+   padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
+    background-color:snow;
+}
+.movie-Container2{
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    width: 225px;
+    margin: 20px;
+}

@@ -1,0 +1,46 @@
+.SeatSelection_Container{
+    width: 1519px;
+    height: 691px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.SeatSelection-Table{
+ background-color: #fefefe;
+ display: flex;
+}
+.seat-selection-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .seat-grid {
+    padding: 10px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(15, 50px);
+    gap: 10px;
+    margin-top: 10px;
+  }
+ 
+  .Seat_button {
+    width: 30px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+   
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(29, 212, 29);
+    color: rgb(28, 152, 28);
+  }
+  .Seat_button:hover{
+    background-color: rgb(64, 221, 20);
+  }
+  .Seat_button.selected {
+  
+    background-color: rgb(94, 120, 27);
+    color: white;
+    
+  }
+  
